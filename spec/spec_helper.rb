@@ -5,6 +5,7 @@ require 'rspec'
 require 'copperfield'
 require 'copperfield/cli'
 require 'semver'
+require 'sequel'
 
 RSpec.configure do |config|
   def capture(stream)
